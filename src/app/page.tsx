@@ -1,12 +1,14 @@
-import CipherForm from '@/components/cipherForm'
+
+import CipherWrapperComponent from '@/components/cipherWrapperComponent';
 import React from 'react'
 
 const Page = () => {
+
   return (
     <>
-      <CipherForm/>
+      <CipherWrapperComponent/>
     </>
-  )
+  );
 }
 
 export default Page
